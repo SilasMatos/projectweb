@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script src="/projeto/javascript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="keyframes.css">
+    <link rel="stylesheet" href="/projeto/responsividade.css" />
+    <link
+      rel="shortcut icon"
+      href="/projeto/imagens/logo.png"
+      type="image/x-icon"
+    />
+
+    <title>Wingman Bootstrap Thame</title>
+  </head>
+  <body>
+    <!--↓ NAV BAR ↓-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand navbar-imgedit" href="#"
+          ><img src="/projeto/imagens/logo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active navbar-color"
+                aria-current="page"
+                href="#"
+                >Overview</a
+              >
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link navbar-color dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pages
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Landing Pages</a></span>
+                </li>
+                <li><a class="dropdown-item" href="#">App Pages</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Innner Pages</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Components
+              </a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                <li><a class="dropdown-item" href="#">Wingman</a></li>
+              
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Docs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Changelog <span class="badge badge-secondary mr-2 version">v1.3.0</span></a>
+            </li>
+            <li class="nav-item d-flex align-items-center">
+              <a href="#" class="btn botao">Purchase Now</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  ⇡  NAV BAR  ⇡ -->
+    <!--  ⇣  CAROUSEL ⇣ -->
+    <section class="space-lg col-12 section-edit">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-md-5 col-edit col-text-edit "
+          >
+            <h1 class="display-4">Build stunning websites and apps</h1>
+            <p>
+              Meet Wingman, a robust suite of styled pages and components,
+              powered by Bootstrap 4. The ideal starting point for product
+              landing pages, stylish web-apps and complete company websites.
+            </p>
+            <a href="#" class="btn btn-lg botao-carousel">Purchase Now</a>
+            <a href="#" class="btn btn-lg btn-link link-carousel text-white"
+              >Start exploring ></a
+            >
+          </div>
+          <div class=" col-md-7 col-edit carousel-edit">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators carousel-indicador">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="4"
+                aria-label="Slide 5"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="5"
+                aria-label="Slide 6"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="6"
+                aria-label="Slide 7"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="7"
+                aria-label="Slide 8"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="8"
+                aria-label="Slide 9"
+              ></button>
+              </div>
+              <div class="carousel-inner carousel-imgedit">
+                <div class="carousel-item active">
+                  <img
+                    src="/projeto/imagens/carouselimg1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg4.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg5.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg6.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg7.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg8.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="/projeto/imagens/carouselimg9.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--⇡ CAROUSEL ⇡-->
+    <!-- ⇣1º TEXT SECTIONS ⇣ -->
+    <div class="col-12">
+      <div class="text-center text_section-edit" data-aos="fade-up" data-aos-delay="10">
+        <h6>MEET WINGMAN</h6>
+      </div>
+      <div class="text-center text_section-edit">
+        <h1 class="">Attractive from every angle</h1>
+        <p>
+          Wingman delivers a seamless user experience, offering visual
+          consistency<br />
+          for your brand, from landing to logged-in
+        </p>
+      </div>
+    </div>
+    <!-- ⇡ TEXT SECTIONS ⇡ -->
+    <!--CARDS-->
+    <div class="container container-card">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-edit">
+            <img src="/projeto/imagens/imgcard1.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title card-title-edit">Landing Pages</h5>
+              <p class="card-text card-text-edit">
+                Impress potential customers and introduce your product using
+                Wingman's diverse, purpose-built landing pages
+              </p>
+              <a class="link-card" href="#">Explore App Pages ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-edit">
+            <img src="/projeto/imagens/imgcard2.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title card-title-edit">App Pages</h5>
+              <p class="card-text card-text-edit">
+                A robust suite of styled app pages and flexible Bootstrap-based
+                components makes Wingman ideal for building Apps
+              </p>
+              <a class="link-card" href="#">Explore App Pages ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-edit">
+            <img src="/projeto/imagens/imgcard3.jpg" alt="" />
+            <div class="card-body">
+              <h5 class="card-title card-title-edit">Inner Pages</h5>
+              <p class="card-text card-text-edit">
+                Landing pages are just the beginning. Wingman includes a
+                collection of detailed inner pages to complete your online
+                presence.
+              </p>
+              <a class="link-card" href="#">Explore App Pages ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--⇡ CARDS ⇡-->
+    <!--2º SECTION -->
+  
+      <div class="container container-section-edit">
+        <div class="row">
+          <div class="col-md-7 align-self-center text-edit-second">
+            <h6>DESIGNED FOR DEVELOPERS</h6>
+            <h1>
+              Familiar, modern<br />
+              tooling
+            </h1>
+            <p>
+              Wingman employs industry-standard<br />
+              development tools with an intuitive workflow<br />
+              designed to get you up and runnning faster.
+            </p>
+            <a class="link-card" href="#">Explore App Pages ></a>
+          </div>
+          <div class="col-md-5 align-self-center img-edit">
+            <img src="/projeto/imagens/imgcoluna.jpg" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!----3º SECTION --->
+
+    <section>
+      <div class="container container-section-third">
+        <div class="col-12">
+          <div class="row align-middle">
+            <div class="col-md-6 col-lg-6 col-img-edit">
+              <img class="img-fluid" src="/projeto/imagens/celularimg.png"  alt="" />
+            </div>
+            <div class="col-md-6 col-lg-6 text-edit-third">
+              <h6>DEVELOPED FOR DESIGNERS</h6>
+              <h1>Responsive, naturally.</h1>
+              <p>
+                Built on the mobile-first Bootstrap 4<br />
+                architecture. Wingman scales elegantly to<br />
+                suit all screen sizes.
+              </p>
+              
+              <a class="link-card" href="#">Explore App Pages ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--4º SECTION-->
+    <section class="fourthsession">
+      <div class="container">
+        <div class="col-12">
+          <div class="row">
+            <div class="col-md-3 col-lg-3 imagem-edit ml-10">
+              <img src="/projeto/imagens/avatarimg.jpg" alt="" />
+            </div>
+            <div class="col-md-9 col-lg-9 edit-text">
+              <h3>
+                “With Wingman, we were able to turn out a<br />
+                stunning landing page and compelling MVP<br />
+                for our SaaS App in no time.”
+                <br><span id="spanEdit">Samuel Canning, Movend</span>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---5° TEXT SECTIONS -->
+    <div class="col-12">
+      <div class="section-edit-text text-center">
+        <h6>FLEXIBLE & EXTENSIBLE</h6>
+      </div>
+      <div class="section-edit-text text-center">
+        <h1>
+          Bootstrap core + much<br />
+          more
+        </h1>
+        <p>
+          Wingman features full coverage of Bootstrap's core components plus
+          a<br />
+          suite of additional time-saving features
+        </p>
+      </div>
+    </div>
+    <!--6º SECTION BUTTON IMG -->
+    <div class="container container-button">
+      <div class="col-12">
+        <div class="row">
+          <div class="col-md-8 col-lg-6">
+            <img src="/projeto/imagens/cardimg3.png" class="img-fluid" alt="imagem alterada" id="trocarimg">
+          </div>
+          <div class="col-md-4 col-lg-6 col-button">
+            <div>
+            <button class="button-one " onclick="img01();">
+              <h5>Modular & Multi-Purpose</h5>
+              <p>Create pages rich in functionality with Wingman's<br>
+                array of modular widgets - carefully designed for a<br>
+                wide range of purposes.</p>
+            </button>
+            <button class="button-two" onclick="img02();">
+              <h5>Familiar Markup</h5>
+              <p>Based on the Bootstrap 4 codebase, Wingman's<br>
+                code is instantly familiar, easy to understand and<br>
+                a dream to extend.</p>
+            </button>
+            <button class="button-three" onclick="img03();">
+              <h5>Purposeful Plug-ins</h5>
+              <p>Elegantly extending Bootstrap's core functionality<br>
+                with Wizards, Touch Sliders, Interface Icons and<br>
+                more.</p>
+            </button>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--BUTTON IMG-->
+    <!--7º SECTION-->
+    <div class="text-center text-section-edit">
+      <h5>Detailed Overview</h5>
+      <p>Wingman's component index showcases the full<br> breadth of features at a glance</p>
+      <a class="link-card-edit" href="#">Explore App Pages ></a>
+    </div>
+    <!------->
+    <!--8° SECTION-->
+    <section class="section-back-edit">
+      <div class="container back-edit text-center">
+        <div class="col-12">
+          <div class="row">
+        <h1 id="textoedit">Start building feature-rich websites</h1>
+        <div class="align-middle text-center">
+        <a href="#" class="btn btn-lg botao-clip">Purchase Now</a>
+        </div>
+      </div>
+    </div>
+   </div>
+    </section>
+<!------->
+<!---FOOTER-->
+<footer class=" footer-long footer-edit">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 col-footer-edit">
+        <img alt="Image" src="/projeto/imagens/logo5px.png" class="mb-4">
+        <p class="p-edit">
+          © 2019 Medium Rare
+          <br>Template available exclusively
+          <br>at Bootstrap Themes
+        </p>
+      </div>
+      <!--end of col-->
+      <div class="col-12 col-md-9 footer-edit-col">
+        <h5 id="robust">A robust suite of styled components for Bootstrap 4</h5>
+        <div class="row no-gutters">
+          <div class="col-6 col-lg-3 footer-list">
+            <h6 class="h6-edit">Navigate</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="index.html">Overview</a>
+              </li>
+              <li>
+                <a href="pages-landing.html">Landing Pages</a>
+              </li>
+              <li>
+                <a href="pages-app.html">App Pages</a>
+              </li>
+              <li>
+                <a href="pages-inner.html">Inner Pages</a>
+              </li>
+            </ul>
+          </div>
+          <!--end of col-->
+          <div class="col-6 col-lg-3 footer-list">
+            <h6 class="h6-edit">Platform</h6>
+            <ul class="list-unstyled ">
+              <li>
+                <a href="#">Mac OS &amp; iOS</a>
+              </li>
+              <li>
+                <a href="#">Android &amp; Chrome OS</a>
+              </li>
+              <li>
+                <a href="#">Windows</a>
+              </li>
+              <li>
+                <a href="#">Linux</a>
+              </li>
+            </ul>
+          </div>
+          <!--end of col-->
+          <div class="col-6 col-lg-3 footer-list">
+            <h6 class="h6-edit">Community</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">Forum</a>
+              </li>
+              <li>
+                <a href="#">Knowledgebase</a>
+              </li>
+              <li>
+                <a href="#">Hire an expert</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!--end of col-->
+          <div class="col-6 col-lg-3 footer-list">
+            <h6 class="h6-edit">Company</h6>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#">About company</a>
+              </li>
+              <li>
+                <a href="#">History</a>
+              </li>
+              <li>
+                <a href="#">Team</a>
+              </li>
+              <li>
+                <a href="#">Investment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- END FOOTER -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

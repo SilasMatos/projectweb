@@ -1,0 +1,380 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,800;1,600&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+/* NAV BAR ESTILOS*/
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  color: #fff;
+}
+
+.navbar-imgedit img{
+  width: 50px;
+
+}
+
+.version{
+  color: rgb(249, 249, 249);
+  background: rgb(126, 126, 126);
+
+cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #fff;
+  font-size: 13pt;
+  font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(216, 216, 216);
+}
+.navbar{
+  background-color: #000;
+  padding: 5px;
+}
+ 
+.botao{
+  width: 160px;
+  margin-left: 20px;
+  font-size: 13pt;
+  font-weight: 500;
+background-color: #02B875;
+color: #fff;
+}
+.botao:hover{
+  color: #fff;
+  background-color: #02b875da;
+}
+/**************************************************************/
+/* SECTION CAROUSEL EDIT */
+
+.section-edit {background-image: linear-gradient(to right, #FF512F 0%, #f4940e  51%, #FF512F  100%)}
+.section-edit {
+  
+   transition: 1s;
+   background-size: 200% auto;            
+   box-shadow: 0 0 20px rgb(251, 11, 11);
+   display: block;
+  
+ }
+
+ .section-edit:hover {
+   background-position: right center;
+   text-decoration: none;
+   transition: 1s;
+   transition-delay: 0.3s;
+ }
+
+.sectio-edit{
+  background-color: rgb(181, 34, 34);
+  height: 800px;
+}
+.carousel-edit{
+  width:590px;
+margin-left: 3rem;
+}
+
+.col-edit{
+  margin-top: 20vh;
+}
+.col-edit h1{
+  color: #fff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 3rem;
+}
+.col-edit p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 15pt;
+  color: #fff;
+}
+.col-text-edit{
+  margin-top: 15rem;
+}
+.botao-carousel{
+  background-color: #02B875;
+  color: #fff;
+  width: 190px;
+  font-size: 14pt;
+  font-weight: 500;
+} 
+.link-carousel{
+  text-decoration: none;
+  font-size: 14pt;
+  font-weight: 500;
+}
+.carousel-imgedit img{
+  margin-bottom: 50px;
+}
+
+/* SECTION TEXT */
+.text_section-edit h6{
+  color: #adb5bd;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  font-family: 'Rubik', sans-serif;
+  font-size: 13pt;
+  font-weight: 500;
+
+}
+.text_section-edit h1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 46pt;
+  font-weight: 100;
+
+}
+.text_section-edit p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 18pt;
+  font-weight: 100;
+}
+/* CARDS ESTILOS*/
+.container-card{
+  margin-top: 20vh;
+}
+.card-edit img{
+  border-radius: 8px;
+  transition: 0.5s;
+
+}
+.card-edit img:hover{
+  transform: scale(1.05);
+  transition-delay: 0.2s;
+  box-shadow: 0px 2px 2px 1px rgb(12, 12, 12);
+
+}
+.card-title-edit{
+  font-family: 'Rubik', sans-serif;
+  font-size: 20pt;
+  margin-top: 10px;
+}
+.card-text-edit{
+  font-family: 'Rubik', sans-serif;
+  font-size: 14pt;
+  margin-top: 25px;
+}
+.link-card{
+  text-decoration: none;
+  font-size: 15pt;
+}
+/*  2 SECOND SECTION*/
+
+.container-section-edit{
+  margin-top: 25vh;
+}
+
+.text-edit-second h6{
+  color: #adb5bd;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  font-size: 12pt;
+  font-weight: 500;
+}
+.text-edit-second h1{
+  color: #000;
+  font-size: 36pt;
+  font-weight: 100;
+}
+.text-edit-second p {
+  color: #000;
+  font-size: 16pt;
+  margin-top: 25px;
+}
+.img-edit img{
+width: 400px;
+
+}
+/* 3 third section*/
+.container-section-third{
+  margin-top: 3rem;
+}
+.text-edit-third{
+  margin-top: 8rem;
+}
+.text-edit-third h6{
+  color: #adb5bd;
+  font-weight: 500;
+  font-size: 12pt;
+}
+.text-edit-third h1{
+  color: #000;
+  font-size: 36pt;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+.text-edit-third p{
+  font-size: 16pt;
+  margin-top: 2rem;
+}
+.col-img-edit img {
+  width: 500px;
+
+}
+/* 4 fourth session */ 
+
+.fourthsession {background-image: linear-gradient(to right, #FF512F 0%, #f07117  51%, #fe4622  100%)}
+.fourthsession {
+   transition: 0.5s;            
+   box-shadow: 0 0 20px #eee;
+   display: block;
+   background-size: 200% auto;
+ }
+
+ .fourthsession:hover {
+   text-decoration: none;
+   background-position: right center;
+ }
+
+.imagem-edit img{
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}  
+.edit-text h3 {
+  font-family: 'Rubik', sans-serif;
+  color: #fff;
+  font-size: 28pt;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}  
+
+#spanEdit{
+  color: #fff;
+  font-size: 14pt;
+}
+
+/* 5 section text 2*/
+.section-edit-text h6{
+margin-top: 7rem;
+font-family: 'Rubik', sans-serif;
+color: #adb5bd;
+font-weight: 500;
+font-size: 14pt;
+}
+.section-edit-text h1{
+  font-family: 'Rubik', sans-serif;
+  font-size: 50pt;
+  margin-top: 2rem;
+  font-weight: 100;
+}
+.section-edit-text p{
+  font-family: 'Rubik', sans-serif;
+  margin-top: 2rem;
+  font-size: 17pt;
+}
+/* ---------------------*/
+/* 6 button img section */
+#trocarimg{
+  width: 600px;
+}
+.container-button{
+  margin-top: 8rem;
+}
+.col-button{
+margin-left: 0;
+}
+.button-one{
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border: none;
+  background: #ffffff45;
+  text-align: left;
+}
+.button-two{
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border: none;
+  background: #ffffff45;
+  text-align: left;
+}
+.button-three{
+  margin-top: 1rem;
+  margin-left: 5rem;
+  border: none;
+  background: #ffffff45;
+  text-align: left;
+}
+/*************/
+/* 7 section*/
+.text-section-edit{
+  margin-top: 7rem;
+
+}
+.text-section-edit h5{
+  font-family: 'Rubik', sans-serif;
+  font-size: 13pt;
+}
+.text-section-edit p{
+  font-size: 11pt;
+  margin-top: 5px;
+}
+.link-card-edit{
+  text-decoration: none;
+  font-size: 11pt;
+  margin-top: 3rem;
+}
+/*************************/
+/* 8 section */
+.section-back-edit{
+  margin-top: 6rem;
+  background-color: #FF512F;
+  height: 460px;
+  clip-path: polygon(0 0, 100% 29%, 100% 100%, 0 100%);
+
+}
+.back-edit h1{
+  margin-top: 12rem;
+  color: #fff;
+}
+.botao-clip{
+  background-color: #898989;
+  color: #fff;
+  width: 190px;
+  font-size: 14pt;
+  font-weight: 500;
+  margin-top: 2rem;
+} 
+.botao-clip:hover{
+  background-color: #fff;
+  color: #f07117;
+}
+/***************************/
+/*FOOTER */
+.footer-edit{
+  background: #000000;
+
+
+}
+.col-footer-edit{
+  margin-top: 4.5rem;
+}
+.text-muted{
+  color: #fff;
+}
+.p-edit{
+  color: #fff;
+  
+}
+.footer-list ul li a{
+  color: rgb(135, 133, 133);
+  text-decoration: none;
+}
+.footer-list ul li a:hover{
+  color: #fff;
+}
+.footer-edit-col {
+  margin-top: 5rem;
+}
+#robust{
+  margin-bottom: 4rem;
+  color: #fff;
+}
+.h6-edit{
+  color: #fff;
+}
+/* FIM ;) */

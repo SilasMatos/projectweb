@@ -1,0 +1,80 @@
+
+@media (max-width:600px){
+  .navbar-imgedit img{
+    display: flex;
+    justify-content: left;
+    margin-right: 60px;
+  }
+}
+
+@media (max-width:800px){
+  .carousel-edit{
+    margin-left: 0;
+  }
+}
+@media (max-width:600px){
+  .col-text-edit{
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width:600px){
+  .imagem-edit img{
+  margin-bottom: 0;
+  display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: 1rem;
+  }
+  .edit-text h3{
+    margin-top: 1rem;
+  }
+
+}
+@media (max-width:600px){
+  .img-edit{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-top: 2rem
+    ;
+  }
+  .text-edit-second h6{
+    margin-top: 1rem;
+  }
+}
+@media (max-width:600px){
+  .col-img-edit img{
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding: auto;
+    margin-bottom: auto;
+  }
+}
+@media (max-width:600px){
+  .card-edit img{
+    width: 340px;
+    display: block;
+    padding: auto;
+    margin: auto;
+  }
+}
+@media (max-width:900px){
+  .button-one{
+ 
+    margin-left: 2rem;
+  
+  }
+  .button-two{
+  
+    margin-left: 2rem;
+   
+  }
+  .button-three{
+   
+    margin-left: 2rem;
+   
+  }
+}
